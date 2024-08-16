@@ -1,10 +1,207 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
+
+.heading
+{
+background-color:white;
+	color:black;
+	text-decoration:none;
+	width:100%;
+	position:relative;
+	z-index:1000;
+	justify-content:space-between;
+
+	margin-top:0px;
+	
+	
+}
+
+.heading .logo img
+{
+	width:90px;
+	height:90px;
+	background:white;
+	border-radius:0px 10px 10px 0px;
+	border-color:blue;
+position:absolute;
+	margin-top:-100px;
+	z-index:2000;
+
+
+}
+.heading h1{
+	margin-left:7.7%;
+	z-index:1000;
+	color:#317256;
+padding:-20px;
+	
+}
+.heading p
+{
+	margin-top:-10px;
+
+margin-left:8%;
+	z-index:1000;
+	color:#317256;
+}
+
+
+.navbar
+{
+	background:#317256;
+	color:white;
+	text-decoration:none;
+	position:sticky;
+	width:100%;
+	height:53px;
+z-index:1000;
+	top:0;
+	
+}
+ .navdiv
+{
+	display:flex;
+	justify-content:space-between;
+		margin-left:49%;
+		padding:2px;
+
+}
+
+
+.navdiv ul li a
+{
+	padding:10px 20px;
+		border-radius:10px;
+		text-decoration:none;
+		color:white;
+}
+.navdiv li
+{
+	display:inline-block;
+	position:relative;
+	padding-right:10px;
+}
+.navdiv li:hover a 
+{
+	background:white;
+	color:#317256;
+	
+}
+.dropdown1
+{
+		opacity:0;
+		display:none;
+		margin-top:10px;
+	position:absolute;
+			background:white;
+	padding:10px 10px;
+		border-radius:10px;
+
+}
+.dropdown1 a
+{
+	min-width:75%;
+		color: black;
+            padding: 12px 26px;
+			margin-bottom:10px;
+            text-decoration: none;
+            display: block;
+            text-align:left;
+}
+.navdiv li:hover ul.dropdown1{
+	opacity:1;
+	visibility:visible;
+	display:block;
+}
+.dropdown1 li:hover a{
+	background:#317256;
+	color:white;
+}
+
+
+
+
+
+.dropdown2
+{
+		opacity:0;
+display:relative;
+	position:absolute;
+			margin-top:10px;
+		background:white;
+	visibility:0;
+	text-align:left;
+	padding:10px 10px;
+			border-radius:10px;
+}
+.dropdown2 a
+{
+	min-width:75%;
+		color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+						margin-bottom:10px;
+
+            text-align: left;
+			background:#317256;
+}
+li:hover ul.dropdown2{
+	opacity:1;
+	visibility:visible;
+	display:block;
+
+}
+.dropdown2 li:hover a{
+	background:#317256;
+	color:white;
+}
+
+
+.dropdown3
+{
+		opacity:0;
+		display:none;
+	position:absolute;
+			margin-top:10px;
+
+	padding:10px 10px;
+		border-radius:10px;
+		background:white;
+
+}
+.dropdown3 a
+{
+	min-width:75%;
+		color: black;
+            padding: 12px 16px;
+			margin-bottom:10px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+}
+li:hover ul.dropdown3{
+	opacity:1;
+	visibility:visible;
+	display:block;
+	
+}
+.dropdown3 li:hover a{
+	background:#317256;
+	color:white;
+}
+
+
+
+
+
+
+
+
 .header{
-    background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+    background: #317256;
     margin-top: 20px;
     height: 100px;
    
@@ -15,7 +212,7 @@
     text-align: center;
     font-weight: 800;
     padding-top: 20px;
-    color: #f3e8e8;
+    color: white;
 }
 .container{
     display: flex;
@@ -30,7 +227,7 @@
     font-weight: 1000;
     margin-left: 100px;
     padding-top: 50px;
-    color: rgb(2, 41, 11);
+    color: #317256;
 }
 .para p{
     font-size: 16px;
@@ -39,7 +236,7 @@
     margin-left: 150px;
     margin-top: 20px;
     margin-right: 50px;
-    color: rgb(52,58,64);
+    color: black;
 }
 .para h3{
     font-size: 20px;
@@ -47,7 +244,7 @@
     font-weight: 700;
     margin-left: 190px;
     margin-top: 10px;
-    color: rgb(61, 64, 67);
+    color: black;
 }
 .para h4{
     font-size: 20px;
@@ -55,7 +252,7 @@
     font-weight: 700;
     margin-left: 150px;
     margin-top: 10px;
-    color: rgb(61, 64, 67);
+    color: black;
 }
 .images{
     position: relative;
@@ -72,7 +269,7 @@
     background-size: cover;
 }
 .img:nth-child(1){
-    background-color: black;
+    background-color: #317256;
     background-image: url(../images/bscpic1.jpg); 
     width: 380px;
     left:-380px;
@@ -81,7 +278,7 @@
     top: 20px;
 }
 .img:nth-child(2){
-    background-color: rgb(201, 69, 69);
+    background-color: #317256;
     background-image: url(../images/bscpic2.jpg);
     width: 265px;
     left:-55px;
@@ -89,7 +286,7 @@
     top: 270px;
 }
 .img:nth-child(3){
-    background-color: cadetblue;
+    background-color: #317256;
     background-image: url(../images/bscpic3.jpg);
     width: 300px;
     left:-55px;

@@ -1,7 +1,7 @@
 *
 {
     padding: 0px;
-    margin: 1.5% 0;
+    margin: 1% 0;
 }
 .heading
 {
@@ -13,7 +13,7 @@ background-color:white;
 	z-index:1000;
 	justify-content:space-between;
 
-	margin-top:0px;
+	margin-top:-20px;
 	
 	
 }
@@ -26,13 +26,13 @@ background-color:white;
 	border-radius:0px 10px 10px 0px;
 	border-color:blue;
 position:absolute;
-	margin-top:-140px;
+	margin-top:-95px;
 	z-index:2000;
 
 
 }
 .heading h1{
-	margin-left:8%;
+	margin-left:7.3%;
 	z-index:1000;
 	color:#317256;
 padding:10px;
@@ -40,7 +40,7 @@ padding:10px;
 }
 .heading p
 {
-	margin-top:0px;
+	margin-top:-12px;
 
 margin-left:8%;
 	z-index:1000;
@@ -294,7 +294,7 @@ position: relative;
 .hostle h2{
         text-align: center;
 		width:100%;
-        background: linear-gradient(10deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+        background:#317256;
         font-size: 35px;
         border-radius: 20px;
         margin-bottom: 1%;
@@ -304,20 +304,20 @@ color:white;
         margin-left: 0%;
     }
 .text1{
-    font-size: 25px;
+    font-size: 20px;
     margin:2% 0;
     color: rgb(15, 15, 15);
     margin-bottom: 1%;
 
 }
 .text2{
-    font-size:25px ;
+    font-size:20px ;
     margin: 0% 0%;
     color: rgb(10, 10, 10);
     
 }
 .text3{
-    font-size: 25px;
+    font-size: 20px;
     margin: 2% 0;
     color: rgb(11, 11, 11);
     margin-bottom: 1%;
@@ -351,7 +351,7 @@ color:white;
 .transport h2{
     text-align: center;
         margin: 0%;
-        background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+        background: #317256;
         font-size:35px;
         border-radius: 20px;
         margin-bottom: 1%;
@@ -360,7 +360,7 @@ color:white;
         padding-top: 15px;
 }
 .text4{
-    font-size: 28px;
+    font-size: 20px;
     color: black;
 }
 .bus{
@@ -389,7 +389,7 @@ color:white;
 .labs h2{
     text-align: center;
         margin: 0%;
-        background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+        background: #317256;
         font-size: 35px;
         border-radius: 20px;
         margin-bottom: 1%;
@@ -398,7 +398,7 @@ color:white;
         padding-top: 15px;
 }
 .text5{
-    font-size: 25px;
+    font-size: 20px;
     margin: 1% 0;
 }
 .lab{
@@ -435,7 +435,7 @@ color:white;
 .cafteria h2{
     text-align: center;
         margin-top: 3%;
-        background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+        background: #317256;
         font-size: 35px;
         border-radius: 20px;
         margin-bottom: 0;
@@ -446,7 +446,7 @@ color:white;
         margin-right: 0%;
 }
 .text6{
-    font-size: 25px;
+    font-size: 20px;
     margin: 1% 0;
 }
 .cafe {
@@ -475,7 +475,7 @@ color:white;
 .classroom h2{
     text-align: center;
         margin: 0%;
-        background: linear-gradient(0deg, rgba(3,78,41,1) 0%, rgba(6,43,3,1) 79%);
+        background: #317256;
         font-size: 35px;
         border-radius: 20px;
         margin-bottom: 1%;
@@ -490,7 +490,7 @@ color:white;
     margin: 1% 0;
 }
 .text8{
-    font-size: 25px;
+    font-size: 20px;
     margin: 1% 0; 
 }
 .classimg{
